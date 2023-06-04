@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animationst</title>
+    <style>
+body{
+
+}
+:root{
+
+}
+.container{
+background-color: red;
+height: 500px;
+}
+.box{
+background-color: aqua;
+position: relative;
+width: 200px;
+height: 50px;
+animation-name: box;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+animation-fill-mode: ;
+}
+@keyframes box{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 200px;
+        left: 0px;
+        color: rgb(255, 157, 0);
+        background-color: black;
+  
+    }
+    50%{
+        top: 200px;
+        left: 400px;
+        color: rgb(255, 254, 252);
+        background-color: rgb(244, 161, 161);
+    }
+    75%{
+        top: 0px;
+        left:400px;
+
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
+    </style>
+</head>
+<body >
+    <div class="container">
+        <div class="box">
+            shivank Singh
+        </div>
+    </div>
+</body>
+</html>
